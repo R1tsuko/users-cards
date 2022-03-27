@@ -88,7 +88,7 @@ const ProfilePage = () => {
             </div>
           </div>
           <div className={s.submitWrapper}>
-            <Button>Отправить</Button>
+            <Button green>Отправить</Button>
           </div>
         </form>
       </main>
