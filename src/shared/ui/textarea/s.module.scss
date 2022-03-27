@@ -1,0 +1,24 @@
+.textAreaContainer {
+  .label {
+    font-size: 8px;
+  }
+  .textArea {
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    font-size: 10px;
+    padding: 5px 10px;
+    margin-top: 3px;
+    resize: none;
+
+    &.error {
+      border: 1px solid #d91313;
+    }
+
+    &.disabled {
+      color: rgba(0, 0, 0, 0.3);
+    }
+  }
+}
